@@ -8,7 +8,7 @@ hostname=$(hostname)
 
 cpu_load=$( top -b -n 2 -d1 | grep "Cpu(s)"| tail -n1 | awk '{print $2}')
 
-load_average=$( uptime| awk '{print $7,$8,$9,$10}')
+load_average=$( uptime| awk '{print $9,$10,$11}')
 
 memory_usage=$( free -mh | xargs | awk '{ print "Total/Free memory : " $8 " / " $12   }')
 
