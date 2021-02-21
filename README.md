@@ -1,5 +1,5 @@
 # Resource-usage-checker
-Script to Capture and Store System Load Average, CPU and Memory usage information
+Script to Capture the CPU usage and notify if it reaches the critical limit
 
 | Top command Option  | Desciption|
 ---------|-----------
